@@ -1,10 +1,18 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/static/Inter-Regular.ttf') format('truetype'); /* Ajustez le chemin selon votre structure */
+    font-weight: normal;
+    font-style: normal;
+}
+
 #container {
     flex : content;
     background-color: #1f1f1f;
     flex-direction: column;
     justify-items: center;
     align-content: center;
-    padding : 24px;
+    padding : 40px;
+    border-radius: 8px;
   }
 #image {
     border-radius: 100%;
@@ -14,4 +22,34 @@
 
 #name {
     color: #ffff;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0px;
+}
+
+#city {
+    color: #c4f82a;
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    margin-top: 6px;
+}   
+
+#description {
+    color: white;
+    opacity: 0.9;
+    font-size: small;
+    font-family: 'Inter', sans-serif;
+    margin-top: 24px
+}
+
+#links {
+    flex: content;
+    background-color: #c4f82a;
+    width: 100%;
+}
+#link {
+    background-color: #333333;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin: 8px;
 }
