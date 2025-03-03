@@ -1,9 +1,10 @@
 body {
+  display: flex;
   background-color: #141414;
   height: 100dvh;
   width: 100%;
-  align-content: center;
-  justify-items: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .attribution {
