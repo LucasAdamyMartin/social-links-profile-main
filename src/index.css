@@ -5,3 +5,9 @@ body {
   align-content: center;
   justify-items: center;
 }
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}

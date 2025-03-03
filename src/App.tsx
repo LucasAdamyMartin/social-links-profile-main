@@ -7,7 +7,7 @@ function App() {
     "LinkedIn",
     "Twitter",
     "Instagram"
-  ]
+  ];
   return (
     <div id="container">
       <img id="image" src='/images/avatar-jessica.jpeg' alt="avatar"/>
@@ -16,7 +16,9 @@ function App() {
       <p id="description">"Front-end developer and avid reader."</p>
       <div id="links">
         {NavigationItems.map((item) => (
-            <p id="link" key={item}>{item}</p>
+            <a href={'/'}  id="link" key={item}>
+              <p id="link-text">{item}</p>
+            </a>
         ))}
       </div>
 
